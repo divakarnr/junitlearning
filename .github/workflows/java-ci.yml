@@ -30,4 +30,4 @@ jobs:
 
     # Step 4: Run the compiled Java class file
     - name: Run Java Application
-      run: java bin/junitLearning/Main
+      run: java -cp bin junitLearning.HelloWorld
