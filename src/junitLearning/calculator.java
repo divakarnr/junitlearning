@@ -8,6 +8,11 @@ public class calculator {
 		return a+b;
 	}
 	
+	public float divide(int a, int b)
+	{
+		return a/b;
+	}
+	
 	public String toString()
 	{
 		return "I am a calc";
