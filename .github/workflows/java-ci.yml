@@ -24,8 +24,8 @@ jobs:
 
     # Step 3: Compile the raw Java file into bytecode
     - name: Compile Java Application
-      run: javac HelloWorld.java
+      run: javac Main.java
 
     # Step 4: Run the compiled Java class file
     - name: Run Java Application
-      run: java HelloWorld
+      run: java Main
